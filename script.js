@@ -62,7 +62,7 @@ form.addEventListener("submit", async (e) => {
   };
 
   try {
-    const response = await fetch("http://192.168.31.206:5000/v1/data", {
+    const response = await fetch("https://6423-2409-40e3-4019-d858-7233-8a74-4771-349c.ngrok-free.app/v1/data", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
