@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login / Signup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container" id="formContainer">
+      <h2 id="formTitle">Login</h2>
+      <form id="authForm">
+        <div class="input-group hidden" id="nameGroup">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" placeholder="Your full name" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="example@mail.com"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Your password"
+            required
+          />
+        </div>
+        <button type="submit" class="btn" id="submitBtn">Login</button>
+      </form>
+      <div class="toggle">
+        <span id="toggleForm">Don't have an account? Sign up</span>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
